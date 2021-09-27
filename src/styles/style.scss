@@ -12,7 +12,20 @@ a {
 ul {
 	list-style-type: none;
 }
-
+.morePictures {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+	button {
+		padding: 0.75rem;
+		background-color: darkgoldenrod;
+		border: 1px solid darkgoldenrod;
+		color: whitesmoke;
+		font-size: 1.25rem;
+		cursor: pointer;
+	}
+}
 @import './nav';
 @import './search';
 @import './footer';
