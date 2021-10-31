@@ -11,10 +11,10 @@ function App() {
 		<div className="App">
 			<Nav />
 			<Switch>
-				<Route path="/photoWebsite-ReactPractice" exact>
+				<Route path="/photoWebsiteReactPractice" exact>
 					<Homepage />
 				</Route>
-				<Route path="/photoWebsite-ReactPractice/about" exact>
+				<Route path="/photoWebsiteReactPractice/about" exact>
 					<About />
 				</Route>
 			</Switch>
